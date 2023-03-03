@@ -10,4 +10,4 @@ RUN pip install -r requirement.txt
 #the dot means that we are coping the whole code in app directory
 COPY . /app
 #run the server
-CMD python manage.py runserver 127.0.0.1:8000
+CMD python manage.py runserver 0.0.0.0:8000
